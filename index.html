@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Tank-Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right"> <!-- this class if menu needed in future--> 
+                <ul>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</li></a>
+                    <li><a href="#connect">Let's Connect</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            
+            <div class="leftSection">Hello, This is 
+                <span class="purple">Ravi</span>
+                <div>and I am </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="D:\RAVI TANK\20210302_184221.jpg" class="portrait" width="400" height="400">
+            </div>
+        </section>
+            <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span> 
+                <br>
+            <div class="heading" id="experience">Experience</div>
+
+            <div class="line">
+
+                <!--thick line that support vertical lines-->
+                <div class="expline"></div>
+
+                <!--verline1 for bca-->
+                <div class="verline1">
+                    <div class="text">
+                        <img src="D:\RAVI TANK\download (1).jpeg" height="100px" width="100px"> <br>
+                        Bachelor Of Computer Application <br> 
+                        <b>SSSDIIT</b>, Junagadh.<br> 
+                        (2020-2023)
+                    </div>
+                </div>
+
+                <div class="verline2">
+                    <div class="text1">
+                        <img src="php.png" height="100px" width="100px"> 
+                        <br>
+                         <br> Front-End Developer
+                            
+                        <b>"Core PHP, JS, MySQL, JavaScript"</b>
+                            <br>
+                        (Dec'22-Mar'23)
+                    </div>
+                </div>
+
+                <div class="verline3">
+                    <div class="text2">
+                        <img src="charusat.jpg" height="100px" width="100px" class="charusat"> <br>
+                        (Pursuing)
+                        <br>
+                        Master of Computer Application <br>
+                        <b>CHARUSAT</b>, Changa.<br> 
+                        (2023-2025)
+                    </div>
+                </div>
+                
+            </div>
+
+        </section> <br><br><br><br>
+        <hr>
+        
+        <section class="thirdSection">
+            <div class="heading" id="projects">Projects</div>
+            <center>
+                <div class="working">Working on Food Delivery project...</div>
+            </center>
+        </section>
+        <hr>
+        
+        <section class="forthSection">
+            <div class="heading" id="connect">Let's Connect</div>
+                <div class="photos">
+                    <a href="mailto:ravitank267@gmail.com" target="_blank"><img src="email.png" class="logos" width="150" height="150"></a>
+                    <a href="https://github.com/ravitank25" target="_blank"><img src="github.png" class="logos" width="150" height="150"></a>
+                    <a href="https://www.linkedin.com/in/ravi-tank-575bb622a/" target="_blank"><img src="linkedin.png" class="logos" width="150" height="150"></a>
+                    <a href="https://twitter.com/ravitank25" target="_blank"><img src="x.png" class="logos" width="150" height="150"></a>
+                    <a href="https://www.instagram.com/ravi_tank_25" target="_blank"><img src="insta.png" class="logos" width="150" height="150"></a>
+                </div>
+        </section>
+    
+    </main>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['Student at CHARUSAT.','Full-Stack Web-Devloper.'],
+      typeSpeed: 70,
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px){
+    
+}
+
+body{
+    background-color: rgb(10, 45, 66);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.portrait{
+    border-radius: 50%;
+    border: 10px solid white;
+}
+
+.charusat{
+    border-radius: 30%;
+}
+
+.logos{
+    margin: 0 30px;
+    justify-content: center;
+}
+
+.logos:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(12, 79, 118);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(55, 161, 222);
+    font-size: 1.5rem;
+}
+
+.left{
+    font-size: 3rem;
+    margin-left: 5%;
+}
+
+.right{
+    font-size: 23px;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 55px 0;
+}
+
+.firstSection > div{
+    width: 30%;
+    align-items: center;
+}
+
+.leftSection{
+    font-size: 4rem;
+    align-items: center;
+}
+
+.rightSection{
+    margin: 50px 0;
+    width: 80%;
+    align-items: center;
+    
+}
+
+.purple{
+    color: rgb(55, 161, 222);
+}
+
+.text-gray{
+    color: gray;
+}
+
+main hr{
+    border: 0;
+    background: rgb(55, 161, 222);
+    height: 2px;
+    margin-left: 300px;
+    margin-right: 430px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#element{
+    color: rgb(55, 161, 222);
+}
+
+.secondSection{
+    margin: auto;
+    width: 80%;
+    height: 80vh;
+}
+
+.heading{
+    font-size: 3rem;
+    margin-bottom: 70px;
+}
+
+.thirdSection{
+    margin: auto;
+    width: 80%;
+    height: 80vh;
+}
+
+.working{
+    margin-top: 250px;
+    font-size: 3rem;
+    color: gray;
+}
+
+.forthSection{
+    margin: auto;
+    width: 80%;
+    height: 80vh;
+}
+
+.expline{
+    border: 0;
+    background: rgb(55, 161, 222);
+    height: 4px;
+    margin-left: 71px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.verline1{  
+    border-left: 3px solid rgb(55, 161, 222);
+    height: 150px;
+    position: relative;
+    left: 10%;
+    margin-left: -30px;
+}
+
+.verline2{  
+    border-left: 3px solid rgb(55, 161, 222);
+    height: 150px;
+    position:relative;
+    left: 30%;
+    margin-left: 40px;
+    margin-top: -150px;
+}
+
+.verline3{  
+    border-left: 3px solid rgb(55, 161, 222);
+    height: 150px;
+    position:relative;
+    left: 30%;
+    margin-left: 450px;
+    margin-top: -150px;
+}
+
+.text{
+    position: relative;
+    top: 150px;
+    color: white;
+    width: 200px;
+    font-size: 18px;
+}
+
+.text1{
+    position: relative;
+    top: 150px;
+    color: white;
+    width: 300px;
+    font-size: 18px;
+}
+
+.text2{
+    position: relative;
+    top: 150px;
+    color: white;
+    width: 200px;
+    font-size: 18px;
+}
